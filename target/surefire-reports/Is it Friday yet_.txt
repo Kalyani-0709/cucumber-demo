@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Is it Friday yet?
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.586 s <<< FAILURE! - in Is it Friday yet?
+Friday is Friday  Time elapsed: 0.117 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is Friday' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is Friday")
+public void today_is_friday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

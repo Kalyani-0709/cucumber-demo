@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: Examples
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.417 s <<< FAILURE! - in Examples
+Example #1  Time elapsed: 0.345 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is "Friday"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is {string}")
+public void today_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Example #2  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is "Sunday"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is {string}")
+public void today_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Example #3  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is "anything else!"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is {string}")
+public void today_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
